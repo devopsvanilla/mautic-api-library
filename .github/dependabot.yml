@@ -2,9 +2,9 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
+version: 2
 updates:
-  - package-ecosystem: "composer" # Gerenciador de dependências do PHP
+  - package-ecosystem: "composer" # Gerenciador de dependências para PHP
     directory: "/" # Caminho do arquivo composer.json
     schedule:
-      interval: "daily" # Frequência das atualizações
+      interval: "daily" # Verificações semanais por atualizações
